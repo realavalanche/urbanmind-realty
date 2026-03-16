@@ -1,0 +1,31 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Global scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #B8963E;
+}
+
+/* Selection color */
+::selection {
+  background: #B8963E22;
+  color: #0D0D0D;
+}
+
+/* Remove default outline on focus */
+*:focus-visible {
+  outline: 1px solid #B8963E;
+  outline-offset: 2px;
+}

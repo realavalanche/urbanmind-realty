@@ -142,10 +142,10 @@ export function Footer() {
               <li className="flex gap-3">
                 <Mail size={16} className="text-[#B8963E] shrink-0 mt-0.5" />
                 <a
-                  href="mailto:sales@urbanmindrealty.in"
+                  href="mailto:sales@urbanmindrealty.com"
                   className="text-gray-400 hover:text-[#B8963E] text-sm transition-colors"
                 >
-                  sales@urbanmindrealty.in
+                  sales@urbanmindrealty.com
                 </a>
               </li>
               <li className="flex gap-3">
